@@ -1,0 +1,88 @@
+<h2>底部导航设计</h2>
+<p class="subtitle">选择底部导航栏的样式</p>
+
+<div class="cards">
+  <div class="card" data-choice="simple" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 24px; background: #f7fafc;">
+      <div style="width: 300px; margin: 0 auto; border-radius: 12px; background: #ffffff; overflow: hidden; box-shadow: 0 -4px 12px rgba(0,0,0,0.08);">
+        <div style="height: 400px; background: linear-gradient(180deg, #f7fafc 0%, #e6fffa 100%); display: flex; align-items: center; justify-content: center; color: #718096;">
+          页面内容区域
+        </div>
+        <div style="display: flex; height: 60px; background: #ffffff; border-top: 1px solid #e2e8f0;">
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #234e52;">
+            <span style="font-size: 20px;">🏠</span>
+            <span style="font-size: 10px; margin-top: 4px;">首页</span>
+          </div>
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #a0aec0;">
+            <span style="font-size: 20px;">📋</span>
+            <span style="font-size: 10px; margin-top: 4px;">历史</span>
+          </div>
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #a0aec0;">
+            <span style="font-size: 20px;">👤</span>
+            <span style="font-size: 10px; margin-top: 4px;">我的</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>简洁经典</h3>
+      <p>传统的底部导航，清晰稳定，用户学习成本低</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="highlight" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 24px; background: #f7fafc;">
+      <div style="width: 300px; margin: 0 auto; border-radius: 12px; background: #ffffff; overflow: hidden; box-shadow: 0 -4px 12px rgba(0,0,0,0.08);">
+        <div style="height: 400px; background: linear-gradient(180deg, #f7fafc 0%, #e6fffa 100%); display: flex; align-items: center; justify-content: center; color: #718096;">
+          页面内容区域
+        </div>
+        <div style="display: flex; height: 64px; background: #ffffff; border-top: 1px solid #e2e8f0; position: relative;">
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; position: relative;">
+            <div style="width: 44px; height: 44px; background: linear-gradient(135deg, #234e52, #2c7a7b); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-top: -8px;">
+              <span style="font-size: 20px; color: white;">🏠</span>
+            </div>
+            <span style="font-size: 10px; margin-top: 4px; color: #234e52; font-weight: bold;">首页</span>
+          </div>
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #a0aec0;">
+            <span style="font-size: 20px;">📋</span>
+            <span style="font-size: 10px; margin-top: 4px;">历史</span>
+          </div>
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #a0aec0;">
+            <span style="font-size: 20px;">👤</span>
+            <span style="font-size: 10px; margin-top: 4px;">我的</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>居中突出</h3>
+      <p>选中项突出显示，视觉焦点明确，增加设计感</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="minimal" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 24px; background: #f7fafc;">
+      <div style="width: 300px; margin: 0 auto; border-radius: 12px; background: #ffffff; overflow: hidden; box-shadow: 0 -4px 12px rgba(0,0,0,0.08);">
+        <div style="height: 400px; background: linear-gradient(180deg, #f7fafc 0%, #e6fffa 100%); display: flex; align-items: center; justify-content: center; color: #718096;">
+          页面内容区域
+        </div>
+        <div style="display: flex; height: 56px; background: #ffffff;">
+          <div style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; color: #234e52;">
+            <span style="font-size: 22px;">🏠</span>
+            <span style="font-size: 14px; font-weight: 500;">首页</span>
+          </div>
+          <div style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; color: #a0aec0;">
+            <span style="font-size: 22px;">📋</span>
+          </div>
+          <div style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; color: #a0aec0;">
+            <span style="font-size: 22px;">👤</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>极简设计</h3>
+      <p>只在选中项显示文字，未选中项只有图标，干净利落</p>
+    </div>
+  </div>
+</div>
